@@ -11,7 +11,7 @@ def draw_menu(menu_name):
     if menu:
         return render_menu(menu)
 
-    return 'Nothing'
+    return ''
 
 
 def render_menu(menu):
